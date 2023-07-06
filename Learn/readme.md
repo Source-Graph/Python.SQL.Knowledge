@@ -1,5 +1,11 @@
 sch: https://www.youtube.com/results?search_query=python+sql+alchemy
 
+# Home:
+Site: https://www.sqlalchemy.org/
+
+## History:
+Version 2.0 was released on [January 26, 2023](https://www.sqlalchemy.org/blog/2023/01/26/sqlalchemy-2.0.0-released/)
+
 # Course:
 - [SQLAlchemy 2.0 ORM Crash Course - Manage Relational Databases with Python (SQLAlchemy 2.0)](https://youtu.be/XWtj4zLl_tg)
 - [SQLAlchemy 2.0 Core Crash Course - Use Python for Seamless Interaction with Relational Databases](https://youtu.be/CfZGWH_vNO0)
@@ -8,10 +14,13 @@ sch: https://www.youtube.com/results?search_query=python+sql+alchemy
 - [SQLAlchemy 2.0 ORM Crash Course - Manage Relational Databases with Python (SQLAlchemy 2.0)](https://youtu.be/XWtj4zLl_tg)
 - [SQLAlchemy 2.0 on Talk Python - Live Stream Event](https://youtu.be/q5Iv6RUxKC8)
 
-# .old: version 1.0
+# .obsolete: version 1.0
 - playlist: [SQLAlchemy ORM Tutorial](https://www.youtube.com/playlist?list=PL4iRawDSyRvVd1V7A45YtAGzDk6ljVPm1)
 - [SQLAlchemy ORM Crash Course - Manage Databases With Python](https://youtu.be/70mNRClYJko)
 - [SQLAlchemy Turns Python Objects Into Database Entries](https://youtu.be/AKQ3XEDI9Mw)
 
 ## conference.presentation:
 - [Advanced SQL with SQLAlchemy](https://youtu.be/UPoHdCeg0YQ)
+
+## case study:
+- [Setting up Alembic with SQLAlchemy](https://youtu.be/nt5sSr1A_qw)

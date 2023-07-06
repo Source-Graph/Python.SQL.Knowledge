@@ -2,6 +2,7 @@ sch: https://www.youtube.com/results?search_query=python+sql+alchemy
 
 # Course:
 - [SQLAlchemy 2.0 ORM Crash Course - Manage Relational Databases with Python (SQLAlchemy 2.0)](https://youtu.be/XWtj4zLl_tg)
+- [SQLAlchemy 2.0 Core Crash Course - Use Python for Seamless Interaction with Relational Databases](https://youtu.be/CfZGWH_vNO0)
 
 # video:
 - [SQLAlchemy 2.0 ORM Crash Course - Manage Relational Databases with Python (SQLAlchemy 2.0)](https://youtu.be/XWtj4zLl_tg)
@@ -11,3 +12,6 @@ sch: https://www.youtube.com/results?search_query=python+sql+alchemy
 - playlist: [SQLAlchemy ORM Tutorial](https://www.youtube.com/playlist?list=PL4iRawDSyRvVd1V7A45YtAGzDk6ljVPm1)
 - [SQLAlchemy ORM Crash Course - Manage Databases With Python](https://youtu.be/70mNRClYJko)
 - [SQLAlchemy Turns Python Objects Into Database Entries](https://youtu.be/AKQ3XEDI9Mw)
+
+## conference.presentation:
+- [Advanced SQL with SQLAlchemy](https://youtu.be/UPoHdCeg0YQ)

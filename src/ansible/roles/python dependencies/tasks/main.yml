@@ -5,4 +5,5 @@
   include_tasks: "{{fn}}/Pip_install.yml"
   loop:
   - mysql-connector-python
+  - sqlalchemy
 

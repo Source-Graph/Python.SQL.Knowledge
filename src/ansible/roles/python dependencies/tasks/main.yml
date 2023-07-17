@@ -1,9 +1,12 @@
 - debug:
     msg: "{{virtual_env}}"
 
+# Connection plugins:
+# https://docs.sqlalchemy.org/en/20/dialects/mysql.html
 - name: Pip install requirements
   include_tasks: "{{fn}}/Pip_install.yml"
   loop:
   - mysql-connector-python
   - sqlalchemy
+  - pymysql
 

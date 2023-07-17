@@ -2,8 +2,8 @@ from rawSQL.list import *
 from rawSQL.create_db import *
 from rawSQL.delete_db import *
 
-createDb("botengine")
+createDb("testdatabase")
 
 listDbs()
 
-deleteDb("botengine")
+deleteDb("testdatabase")

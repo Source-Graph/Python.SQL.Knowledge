@@ -6,7 +6,7 @@ def queryFn(func):
         user="vpn",
         password="base12universe"
     ) as connection:
-        func(connection)
+        return func(connection)
 
 def querySQL(sql, commit=False):
     with connect(

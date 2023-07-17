@@ -1,0 +1,4 @@
+- name: Pip install pkgs into virtualenv
+  ansible.builtin.pip:
+    name: "{{item}}"
+    virtualenv: "{{ virtual_env }}"

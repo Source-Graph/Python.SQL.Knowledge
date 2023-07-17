@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b2f3a98-8353-48ec-8c30-206c9da3d3be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../&amp; Flask/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SQL commands/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../example./readme.md" beforeDir="false" />
-    </list>
+    <list default="true" id="2b2f3a98-8353-48ec-8c30-206c9da3d3be" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

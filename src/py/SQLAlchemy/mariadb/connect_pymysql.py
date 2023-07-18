@@ -1,7 +1,7 @@
 # https://docs.sqlalchemy.org/en/20/dialects/mysql.html
 from sqlalchemy import create_engine, text
 
-user = "root"
+user = "user"
 passwd = "password"
 host = "localhost"
 dbname = "testdatabase"

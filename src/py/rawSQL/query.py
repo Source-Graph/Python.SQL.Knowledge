@@ -3,16 +3,16 @@ from mysql.connector import connect, Error
 def queryFn(func):
     with connect(
         host="localhost",
-        user="vpn",
-        password="base12universe"
+        user="user",
+        password="password"
     ) as connection:
         return func(connection)
 
 def querySQL(sql, commit=False):
     with connect(
             host="localhost",
-            user="vpn",
-            password="base12universe",
+            user="user",
+            password="password",
     ) as connection:
         cursor = connection.cursor()
         cursor.execute(sql)

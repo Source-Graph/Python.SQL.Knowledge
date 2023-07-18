@@ -30,14 +30,14 @@ class DBengine:
         return name in dbs
 
     def create_database(self):
-        if db.exists(self.name):
+        if self.exists(self.name):
             print(f"{self.name}, already exists!")
         else:
             self.query(text(f"CREATE DATABASE {self.name}"))
             print(f"Created database {self.name}")
 
     def delete_database(self):
-        if db.exists(self.name):
+        if self.exists(self.name):
             self.query(text(f"DROP DATABASE {self.name}"))
             print(f"Deleted database {self.name}")
         else:

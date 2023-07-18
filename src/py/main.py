@@ -1,6 +1,6 @@
-def print_hi(name):
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
+from SQLAlchemy.mariadb.dbengine import DBengine
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    db = DBengine()
+    db.create_database()
+    print(db.list_database())

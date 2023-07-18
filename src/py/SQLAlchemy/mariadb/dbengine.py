@@ -7,7 +7,9 @@ class DBengine:
         self.passwd = passwd
         self.host = host
         self.name = name
+        self.echo = True
         self.master = create_engine(f"mysql+pymysql://{self.user}:{self.passwd}@{self.host}")
+        self.engine = create_engine(f"mysql+pymysql://{self.user}:{self.passwd}@{self.host}/{self.name}", echo=self.echo)
 
     def query_exp(self, expression):
         with self.master.connect() as conn:

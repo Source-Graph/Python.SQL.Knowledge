@@ -2,12 +2,12 @@ from sqlalchemy import create_engine, text
 
 
 class DBengine:
-    def __init__(self, user="user", passwd="password", host="localhost", name="testdatabase"):
+    def __init__(self, user="user", passwd="password", host="localhost", name="testdatabase", echo=True):
         self.user = user
         self.passwd = passwd
         self.host = host
         self.name = name
-        self.echo = True
+        self.echo = echo
         self.master = create_engine(f"mysql+pymysql://{self.user}:{self.passwd}@{self.host}")
         self.engine = create_engine(f"mysql+pymysql://{self.user}:{self.passwd}@{self.host}/{self.name}", echo=self.echo)
 
